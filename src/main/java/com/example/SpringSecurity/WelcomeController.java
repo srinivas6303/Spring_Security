@@ -1,4 +1,4 @@
-package com.example.Jwt_demo;
+package com.example.SpringSecurity;
 
 
 import org.springframework.web.bind.annotation.GetMapping;

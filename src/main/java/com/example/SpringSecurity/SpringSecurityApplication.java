@@ -1,4 +1,4 @@
-package com.example.Jwt_demo;
+package com.example.SpringSecurity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
