@@ -1,4 +1,4 @@
-package com.example.SpringSecurity;
+package com.example.SpringSecurity.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,6 +9,6 @@ public class WelcomeController {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return  "Hello, Welcome to Session based Authentication!";
+        return  "Hello, Welcome to Basic Authentication!";
     }
 }
