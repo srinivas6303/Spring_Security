@@ -41,14 +41,14 @@ It contains three branches, each implementing a specific authentication strategy
 - Spring Boot 3.x
 - Spring Security 6+
 - Maven
-- JWT (io.jsonwebtoken library)
+- JWT
 
 ---
 
 ## How to Run
-1. Clone the repository:
+1. Clone the repository:<br />
    ```bash
-   git clone https://github.com/srinivas6303/spring_security.git
+   git clone https://github.com/srinivas6303/Spring_Security.git
    
 Checkout the desired branch:
 bash <br />
@@ -60,8 +60,8 @@ or<br />
 git checkout jwt<br />
 
 ## Run the application:
-Sessionbase Auth-web browser
-Basic Auth and Jwt - Test endpoints using Postman or any API client.
+- Sessionbase Auth-web browser
+- Basic Auth and Jwt - Test endpoints using Postman or any API client.
 ---
 
 ## Notes
