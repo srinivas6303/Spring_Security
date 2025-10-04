@@ -7,7 +7,7 @@ It contains three branches, each implementing a specific authentication strategy
 
 ## Branches
 
-### 1. `sessionbaseauthproject` (Default Branch)
+### 1. sessionbaseAuth (Default Branch)
 - **Description:** Implements **Session-Based Authentication**.
 - **How it works:**
   - The client sends credentials (username & password) to the server.
@@ -17,7 +17,7 @@ It contains three branches, each implementing a specific authentication strategy
 
 ---
 
-### 2. `basicauthproject`
+### 2. basicAuth
 - **Description:** Implements **Basic Authentication**.
 - **How it works:**
   - Each request carries the **username and password** in the **Authorization header** (Base64 encoded).
@@ -26,7 +26,7 @@ It contains three branches, each implementing a specific authentication strategy
 
 ---
 
-### 3. `jwtproject`
+### 3. Jwt
 - **Description:** Implements **JWT (JSON Web Token) Authentication**.
 - **How it works:**
   - Upon successful login, the server generates a **JWT token** and sends it to the client.
@@ -51,15 +51,17 @@ It contains three branches, each implementing a specific authentication strategy
    git clone https://github.com/srinivas6303/spring_security.git
    
 Checkout the desired branch:
-bash
-git checkout sessionbaseAuth
-# or
-git checkout basic-auth
-# or
-git checkout jwt
+bash <br />
+
+git checkout sessionbaseAuth <br />
+or<br />
+git checkout basic-auth<br />
+or<br />
+git checkout jwt<br />
 
 ## Run the application:
-Test endpoints using Postman or any API client.
+Sessionbase Auth-web browser
+Basic Auth and Jwt - Test endpoints using Postman or any API client.
 ---
 
 ## Notes
@@ -69,6 +71,6 @@ JWT: Suitable for REST APIs and microservices; stateless and scalable.<br />
 
 ## Author
 Srinivas Dappu<br />
-GitHub: https://github.com/srinivas6303
-LinkedIn: https://www.linkedin.com/in/dappusrinivas/
-Portfolio: https://dappusrinivas.netlify.app/
+GitHub: https://github.com/srinivas6303<br /> 
+LinkedIn: https://www.linkedin.com/in/dappusrinivas<br />
+Portfolio: https://dappusrinivas.netlify.app<br />
