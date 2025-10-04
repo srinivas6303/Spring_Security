@@ -7,7 +7,7 @@ It contains three branches, each implementing a specific authentication strategy
 
 ## Branches
 
-### 1. `sessionbaseAuth` (Default Branch)
+### 1. `sessionbaseauthproject` (Default Branch)
 - **Description:** Implements **Session-Based Authentication**.
 - **How it works:**
   - The client sends credentials (username & password) to the server.
@@ -17,7 +17,7 @@ It contains three branches, each implementing a specific authentication strategy
 
 ---
 
-### 2. `basic-auth`
+### 2. `basicauthproject`
 - **Description:** Implements **Basic Authentication**.
 - **How it works:**
   - Each request carries the **username and password** in the **Authorization header** (Base64 encoded).
@@ -26,7 +26,7 @@ It contains three branches, each implementing a specific authentication strategy
 
 ---
 
-### 3. `jwt`
+### 3. `jwtproject`
 - **Description:** Implements **JWT (JSON Web Token) Authentication**.
 - **How it works:**
   - Upon successful login, the server generates a **JWT token** and sends it to the client.
@@ -60,20 +60,15 @@ git checkout jwt
 
 ## Run the application:
 Test endpoints using Postman or any API client.
+---
 
 ## Notes
-Session-Based Auth: Good for web applications where the server maintains state.
-Basic Auth: Simple and stateless; recommended over HTTPS only.
-JWT: Suitable for REST APIs and microservices; stateless and scalable.
+Session-Based Auth: Good for web applications where the server maintains state.<br />
+Basic Auth: Simple and stateless; recommended over HTTPS only.<br />
+JWT: Suitable for REST APIs and microservices; stateless and scalable.<br />
 
 ## Author
-Srinivas Dappu
-GitHub: [https://github.com/username](https://github.com/srinivas6303)
-LinkedIn: [https://www.linkedin.com/in/dappusrinivas/](https://www.linkedin.com/in/dappusrinivas/)
+Srinivas Dappu<br />
+GitHub: https://github.com/srinivas6303
+LinkedIn: https://www.linkedin.com/in/dappusrinivas/
 Portfolio: https://dappusrinivas.netlify.app/
-
-
-
-
-
-
