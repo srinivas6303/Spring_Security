@@ -69,6 +69,9 @@ Session-Based Auth: Good for web applications where the server maintains state.<
 Basic Auth: Simple and stateless; recommended over HTTPS only.<br />
 JWT: Suitable for REST APIs and microservices; stateless and scalable.<br />
 
+## Resource
+Link: https://docs.google.com/document/d/1MnaXL5XTJql4J5dLE7lulrUjsXhHMVoYxcct4y4AUOI/edit?usp=sharing
+
 ## Author
 Srinivas Dappu<br />
 GitHub: https://github.com/srinivas6303<br /> 
