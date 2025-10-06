@@ -9,6 +9,6 @@ public class WelcomeController {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return  "Hello, Welcome to Basic Authentication!";
+        return  "Hello, Welcome to Jwt Authentication!";
     }
 }
